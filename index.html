@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="./Style/style.css">
+  <script src="./Script/script.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="container flex">
+    <figure>
+      <img class="logo" src="./images/logo.svg" alt="" >
+      <img class ="img-mobile"src="./images/hero-mobile.jpg" alt="" srcset="">
+      <img class="img-desktop" src="./images/hero-desktop.jpg" alt="" srcset="">
+
+    </figure>
+    <article class="article">
+      <img class="article--img" src="./images/logo.svg" alt="" srcset="">
+      <h3 class="article__header">We're <span class="article__header__inner">coming soon</span></h3>
+      <p class="article__paragraph">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <div class="article--email">
+        <input type="email" name="" id="email" placeholder="Email Address" class="article__input">
+        <!-- <img class="article--email--error--icon" src="./images/icon-error.svg" alt="" srcset=""> -->
+        <span class="article--icon--container" id='button'>
+          <img src="./images/icon-arrow.svg" alt="" class="article--icon--arrow">
+        </span>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Tariqul-huda">Tariqul Huda</a>.
+    </p>
+  </footer>
+</body>
+</html>
