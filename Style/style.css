@@ -128,6 +128,7 @@ input:focus{
 @media screen and (min-width:1024px) {
     body{
         background-image: url(../images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
     }
     .container{
         height:800px;
